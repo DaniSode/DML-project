@@ -1,0 +1,9 @@
+future
+tb-nightly
+gym
+pillow
+kaggle
+ipywidgets
+einops
+transformers
+datasets
