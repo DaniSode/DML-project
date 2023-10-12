@@ -1,1 +1,4 @@
 Losses:
+Train loss batch: 56.749, Val. loss batch: 53.363
+Continue:
+Train loss batch: 45.979, Val. loss batch: 53.858
