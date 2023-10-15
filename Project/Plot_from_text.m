@@ -2,10 +2,15 @@ clc
 close all
 clear all
 
-% Byt .txt fil här
-fileID = fopen('loss_seg.txt','r');
-% Detta blir titeln på plot samt filnamnet på .eps filen
-title_of_plot = "Segmentation loss";
+%% Byt .txt fil här -->
+%fileID = fopen('loss_seg.txt','r');
+%fileID = fopen('loss_color_seg.txt','r');
+fileID = fopen('loss_autoencoder.txt','r');
+
+%% Detta blir titeln på plot samt filnamnet på .eps filen
+%title_of_plot = "Segmentation loss";
+title_of_plot = "Autoencoder loss";
+%title_of_plot = "Autoencoder using segmentation loss";
 
 formatSpec = '%s'; % String
 inputStr  = fscanf(fileID,formatSpec);
@@ -31,7 +36,7 @@ for i = 1:numel(matches)
 end
 
 print_every = 25;
-batch_vector = 0:print_every:print_every*length(val_loss)-1
+batch_vector = 0:print_every:print_every*length(val_loss)-1;
 
 
 figure(1)
