@@ -31,3 +31,4 @@ dependencies:
   - einops
   - transformers
   - datasets
+  - kornia
