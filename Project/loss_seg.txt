@@ -119,3 +119,4 @@ Train loss batch: 0.399, Val. loss batch: 0.598
 Train loss batch: 0.403, Val. loss batch: 0.622
 Train loss batch: 0.386, Val. loss batch: 0.595
 Train loss epoch: 0.392, Val. loss epoch: 0.594
+Continue:

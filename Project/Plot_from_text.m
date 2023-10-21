@@ -80,5 +80,5 @@ set(gcf,'color','w');
 plot(batch_vector_autoencoder, val_loss_autoencoder, 'LineWidth',1.5)
 plot(batch_vector_color_seg, val_loss_color_seg,'LineWidth',1.5)
 ylim([0 250])
-legend("Train loss without segmentation", "Train loss with segmentation")
+legend("Validation loss without segmentation", "Validation loss with segmentation")
 saveas(gcf, title_of_plot_val_loss, 'epsc')
